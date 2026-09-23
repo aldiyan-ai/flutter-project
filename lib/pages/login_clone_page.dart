@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:percobaan/component/editing_textfield.dart';
-import 'package:percobaan/component/editing_button.dart';
+
 
 class LoginClonePage extends StatelessWidget {
   final TextEditingController txtUsername = TextEditingController();

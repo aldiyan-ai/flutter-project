@@ -29,12 +29,12 @@ class _LoginclonePageState extends State<LoginclonePage> {
                   child: Image.network(
                     'https://tse4.mm.bing.net/th/id/OIP.nCmb7tgt3ol5ICEHVcTbEwHaHk?r=0&pid=Api&P=0&h=180',
                     fit: BoxFit.contain,
-                    errorBuilder: (context, error, stackTrace) {
+                    errorBuilder: (context, error, stackfTrace) {
                       return const Icon(Icons.image, color: Colors.grey);
                     },
                   ),
                 ),
-                
+                  
 
                 const SizedBox(height: 40),
               
