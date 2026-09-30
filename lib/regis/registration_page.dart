@@ -10,7 +10,10 @@ class RegistrationPage extends StatelessWidget {
   Widget build(BuildContext context) {
     TextEditingController txtNama = TextEditingController();
     TextEditingController txtJenisKelamin = TextEditingController();
+    TextEditingController txtemail = TextEditingController();
     TextEditingController txtalamat = TextEditingController();
+    
+    
     return Scaffold(
        appBar: AppBar(
         title: Text("Registration Page"),
@@ -19,7 +22,9 @@ class RegistrationPage extends StatelessWidget {
           children: [
             EditingTextfield(txtcontroller: txtNama, myhint: "input name"),
             EditingTextfield(txtcontroller: txtJenisKelamin, myhint: "input gender (Laki-laki / Perempuan)"),
+            EditingTextfield(txtcontroller: txtemail, myhint: "input E-mail"),
             EditingTextfield(txtcontroller: txtalamat, myhint: "input alamat"),
+            
             ElevatedButton(
             onPressed: () {
               // get to untuk pindah
@@ -30,7 +35,10 @@ class RegistrationPage extends StatelessWidget {
                 arguments: {
                   'name': txtNama.text.toString(),
                   'gender': txtJenisKelamin.text.toString(),
+                  'email': txtemail.text.toString(),
                   'alamat': txtalamat.text.toString(),
+                  
+
                   // dari widget kalian,
                   // dll
                 },

@@ -25,10 +25,17 @@
               "Jenis Kelamin ${controller.Jeniskelamin}" ,
               style: TextStyle(fontSize: 25, color: const Color.fromARGB(255, 0, 35, 110)),
             ),
+             Text(
+              "email ${controller.Email}" ,
+              style: TextStyle(fontSize: 25, color: const Color.fromARGB(255, 0, 35, 110)),
+            ),
+           
             Text(
               "alamat ${controller.alamat}" ,
               style: TextStyle(fontSize: 25, color: const Color.fromARGB(255, 0, 35, 110)),
             ),
+           
+
             ElevatedButton(
               onPressed: () {
                 Get.back();

@@ -1,11 +1,13 @@
-  import 'package:flutter/material.dart';
+  import 'dart:math';
+
+import 'package:flutter/material.dart';
   import 'package:get/get.dart';
 
   class ConfirmregController extends GetxController{
     late String nama;
     late String Jeniskelamin;
+    late String Email;
     late String alamat;
-
 
     @override
     void onInit() {
@@ -13,6 +15,7 @@
       final arguments = Get.arguments;
       nama = arguments['name']; 
       Jeniskelamin = arguments['gender'];
+      Email = arguments['email'];
       alamat = arguments['alamat'];
     }
     // Add your controller logic here
