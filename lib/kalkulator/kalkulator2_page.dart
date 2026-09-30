@@ -25,7 +25,7 @@ final controller = Get.put(KalkulatorController());
             children: [
           ElevatedButton(
             onPressed: () {
-              // panggil method tambah di controller
+              
               int angka1 = int.parse(txtAngka1.text);
               int angka2 = int.parse(txtAngka2.text);
               controller.tambah(angka1, angka2);
@@ -35,7 +35,7 @@ final controller = Get.put(KalkulatorController());
           ),
           ElevatedButton(
             onPressed: () {
-              // panggil method tambah di controller
+              
               int angka1 = int.parse(txtAngka1.text);
               int angka2 = int.parse(txtAngka2.text);
               controller.kurang(angka1, angka2);
@@ -45,7 +45,7 @@ final controller = Get.put(KalkulatorController());
           ),
           ElevatedButton(
             onPressed: () {
-              // panggil method tambah di controller
+              
               int angka1 = int.parse(txtAngka1.text);
               int angka2 = int.parse(txtAngka2.text);
               controller.kali(angka1, angka2);
@@ -55,7 +55,7 @@ final controller = Get.put(KalkulatorController());
           ),
           ElevatedButton(
             onPressed: () {
-              // panggil method tambah di controller
+              
               int angka1 = int.parse(txtAngka1.text);
               int angka2 = int.parse(txtAngka2.text);
               controller.bagi(angka1, angka2);

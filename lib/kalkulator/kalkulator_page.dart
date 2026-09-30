@@ -30,7 +30,7 @@ class  _KalkulatorPageState extends State<KalkulatorPage> {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // Bungkus dengan Expanded agar lebarnya terikat (bounded) dan tidak stuck
+             
               Expanded(
                 child: Container(
                   margin: const EdgeInsets.all(10),

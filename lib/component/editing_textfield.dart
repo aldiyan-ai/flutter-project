@@ -17,7 +17,7 @@ class EditingTextfield extends StatelessWidget {
     return TextField(
       controller: txtcontroller,
       obscureText: isPassword,
-      style: const TextStyle(color: Colors.black87), // Agar teks yang diketik terlihat
+      style: const TextStyle(color: Colors.black87), 
       decoration: InputDecoration(
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
         hintText: myhint,
